@@ -1,0 +1,216 @@
+EESchema Schematic File Version 4
+LIBS:INL8_v3-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 5AA04B3F
+P 1650 1800
+F 0 "#PWR?" H 1650 1550 50  0001 C CNN
+F 1 "GND" H 1655 1627 50  0000 C CNN
+F 2 "" H 1650 1800 50  0001 C CNN
+F 3 "" H 1650 1800 50  0001 C CNN
+	1    1650 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1800 1650 1600
+Wire Wire Line
+	1100 1150 1350 1150
+Wire Wire Line
+	1650 850  2450 850 
+Wire Wire Line
+	1650 1600 2450 1600
+Connection ~ 1650 1600
+Wire Wire Line
+	1650 1600 1650 1450
+$Comp
+L Diode_Bridge:MB6S D?
+U 1 1 5AA048F1
+P 1650 1150
+F 0 "D?" V 1696 809 50  0000 R CNN
+F 1 "DF206S-G(DFS)" V 1605 809 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:TO-269AA" H 1800 1275 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/88573/dfs.pdf" H 1650 1150 50  0001 C CNN
+	1    1650 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1950 1150 1950 1500
+Wire Wire Line
+	1950 1500 1100 1500
+$Comp
+L ld1086:L7805ABP_2_1 CR?
+U 1 1 5AA05E33
+P 4150 1050
+F 0 "CR?" H 5450 1437 60  0000 C CNN
+F 1 "LD1086D2T33TR" H 5450 1331 60  0000 C CNN
+F 2 "D2PAK" H 5450 1290 60  0001 C CNN
+F 3 "" H 4150 1050 60  0000 C CNN
+	1    4150 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L ld1086:L7805ABP_2_1 CR?
+U 1 1 5AA05FCE
+P 4150 2400
+F 0 "CR?" H 5450 2787 60  0000 C CNN
+F 1 "LD1086D2T50TR" H 5450 2681 60  0000 C CNN
+F 2 "D2PAK" H 5450 2640 60  0001 C CNN
+F 3 "" H 4150 2400 60  0000 C CNN
+	1    4150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5AA06472
+P 4050 1300
+F 0 "C?" H 4168 1346 50  0000 L CNN
+F 1 "CP" H 4168 1255 50  0000 L CNN
+F 2 "" H 4088 1150 50  0001 C CNN
+F 3 "~" H 4050 1300 50  0001 C CNN
+	1    4050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5AA06522
+P 7200 1250
+F 0 "C?" H 7318 1296 50  0000 L CNN
+F 1 "CP" H 7318 1205 50  0000 L CNN
+F 2 "" H 7238 1100 50  0001 C CNN
+F 3 "~" H 7200 1250 50  0001 C CNN
+	1    7200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5AA065AE
+P 7150 2700
+F 0 "C?" H 7268 2746 50  0000 L CNN
+F 1 "CP" H 7268 2655 50  0000 L CNN
+F 2 "" H 7188 2550 50  0001 C CNN
+F 3 "~" H 7150 2700 50  0001 C CNN
+	1    7150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5AA06616
+P 4100 2650
+F 0 "C?" H 4218 2696 50  0000 L CNN
+F 1 "CP" H 4218 2605 50  0000 L CNN
+F 2 "" H 4138 2500 50  0001 C CNN
+F 3 "~" H 4100 2650 50  0001 C CNN
+	1    4100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5AA06A94
+P 5550 3000
+F 0 "#PWR?" H 5550 2750 50  0001 C CNN
+F 1 "GND" H 5555 2827 50  0000 C CNN
+F 2 "" H 5550 3000 50  0001 C CNN
+F 3 "" H 5550 3000 50  0001 C CNN
+	1    5550 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 1050 4150 1050
+Wire Wire Line
+	4050 1050 4050 1150
+Wire Wire Line
+	4050 1500 4050 1450
+Wire Wire Line
+	6750 1050 7200 1050
+Wire Wire Line
+	7200 1050 7200 1100
+Wire Wire Line
+	4050 1500 5550 1500
+Wire Wire Line
+	7200 1500 7200 1400
+Wire Wire Line
+	6750 1150 6750 1500
+Connection ~ 6750 1500
+Wire Wire Line
+	6750 1500 7200 1500
+Wire Wire Line
+	7150 2550 7150 2400
+Wire Wire Line
+	7150 2400 6750 2400
+Wire Wire Line
+	6750 2850 7150 2850
+Wire Wire Line
+	6750 2500 6750 2850
+Wire Wire Line
+	6750 2850 5550 2850
+Connection ~ 6750 2850
+Wire Wire Line
+	4100 2400 4150 2400
+Wire Wire Line
+	5550 3000 5550 2850
+Connection ~ 5550 2850
+Wire Wire Line
+	5550 2850 4100 2850
+$Comp
+L power:GND #PWR?
+U 1 1 5AA07EAE
+P 5550 1550
+F 0 "#PWR?" H 5550 1300 50  0001 C CNN
+F 1 "GND" H 5555 1377 50  0000 C CNN
+F 2 "" H 5550 1550 50  0001 C CNN
+F 3 "" H 5550 1550 50  0001 C CNN
+	1    5550 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1550 5550 1500
+Connection ~ 5550 1500
+Wire Wire Line
+	5550 1500 6750 1500
+Wire Wire Line
+	4050 1050 3850 1050
+Connection ~ 4050 1050
+Wire Wire Line
+	4100 2400 3900 2400
+Connection ~ 4100 2400
+Wire Wire Line
+	4100 2400 4100 2500
+Wire Wire Line
+	4100 2800 4100 2850
+Wire Wire Line
+	7200 1050 7550 1050
+Connection ~ 7200 1050
+Wire Wire Line
+	7150 2400 7450 2400
+Connection ~ 7150 2400
+Text HLabel 1100 1150 0    50   UnSpc ~ 0
+12V
+Text HLabel 1100 1500 0    50   UnSpc ~ 0
+0V
+Text GLabel 2450 850  2    50   UnSpc ~ 0
+12VDC
+Text GLabel 2450 1600 2    50   UnSpc ~ 0
+GND
+Text GLabel 3850 1050 0    50   UnSpc ~ 0
+12VDC
+Text GLabel 3900 2400 0    50   UnSpc ~ 0
+12VDC
+Text GLabel 7450 2400 2    50   UnSpc ~ 0
+5VDC
+Text GLabel 7550 1050 2    50   UnSpc ~ 0
+3.3VDC
+$EndSCHEMATC

@@ -1,0 +1,118 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1500 800  0    50   Output ~ 0
+RELAY1
+Text HLabel 1500 900  0    50   Output ~ 0
+RELAY2
+Text HLabel 1500 1000 0    50   Output ~ 0
+RELAY3
+Text HLabel 1500 1100 0    50   Output ~ 0
+RELAY4
+Text HLabel 1500 1200 0    50   Output ~ 0
+RELAY5
+Text HLabel 1500 1300 0    50   Output ~ 0
+RELAY6
+Text HLabel 1500 1400 0    50   Output ~ 0
+RELAY7
+Text HLabel 1500 1500 0    50   Output ~ 0
+RELAY8
+Text HLabel 1500 1800 0    50   Input ~ 0
+SENSOR1
+Text HLabel 1500 1900 0    50   Input ~ 0
+SENSOR2
+Text HLabel 1500 2000 0    50   Input ~ 0
+SENSOR3
+Text HLabel 1500 2100 0    50   Input ~ 0
+SENSOR4
+Text HLabel 1500 2200 0    50   Input ~ 0
+SENSOR5
+Text HLabel 1500 2300 0    50   Input ~ 0
+SENSOR6
+Text HLabel 1500 2400 0    50   Input ~ 0
+SENSOR7
+Text HLabel 1500 2500 0    50   Input ~ 0
+SENSOR8
+Text HLabel 1500 2850 0    50   Output ~ 0
+LED_YELLOW
+Text HLabel 1500 2950 0    50   Output ~ 0
+LED_GREEN
+Text HLabel 1500 3050 0    50   Output ~ 0
+LED_RED
+Text HLabel 1500 3300 0    50   BiDi ~ 0
+SDA
+Text HLabel 1500 3400 0    50   BiDi ~ 0
+SCL
+Text HLabel 1500 3500 0    50   Input ~ 0
+RESET_IO
+Text HLabel 1500 3600 0    50   Output ~ 0
+INTERRUPT
+Text HLabel 1500 3900 0    50   Input ~ 0
+BUTTON1
+Text HLabel 1500 4100 0    50   Input ~ 0
+BUTTON3
+Text HLabel 1500 4000 0    50   Input ~ 0
+BUTTON2
+Text HLabel 1500 4200 0    50   Input ~ 0
+BUTTON4
+Text HLabel 1500 4300 0    50   Input ~ 0
+BUTTON5
+Text HLabel 1500 4400 0    50   Input ~ 0
+BUTTON6
+Text HLabel 1500 4500 0    50   Input ~ 0
+BUTTON7
+Text HLabel 1500 4600 0    50   Input ~ 0
+BUTTON8
+Text HLabel 1500 4800 0    50   Input ~ 0
+CAP1
+Text HLabel 1500 4900 0    50   Input ~ 0
+CAP2
+Text HLabel 1500 5000 0    50   Input ~ 0
+CAP3
+Text HLabel 1500 5100 0    50   Input ~ 0
+CAP4
+Text HLabel 1500 5200 0    50   Input ~ 0
+CAP5
+Text HLabel 1500 5300 0    50   Input ~ 0
+CAP6
+Text HLabel 1500 5400 0    50   Input ~ 0
+CAP7
+Text HLabel 1500 5500 0    50   Input ~ 0
+CAP8
+Text HLabel 1500 5750 0    50   Input ~ 0
+IN1
+Text HLabel 1500 5850 0    50   Input ~ 0
+IN2
+Text HLabel 1500 5950 0    50   Input ~ 0
+IN3
+Text HLabel 1500 6050 0    50   Input ~ 0
+IN4
+Text HLabel 1500 6150 0    50   Input ~ 0
+IN5
+Text HLabel 1500 6250 0    50   Input ~ 0
+IN6
+Text HLabel 1500 6350 0    50   Output ~ 0
+OUT1
+Text HLabel 1500 6450 0    50   Output ~ 0
+OUT2
+Text HLabel 1500 6700 0    50   Input ~ 0
+AHORRO_ENERGIA
+Text HLabel 1500 6800 0    50   Input ~ 0
+SIM_PRESENCIA
+Text HLabel 1500 7000 0    50   Output ~ 0
+TX_PIC
+Text HLabel 1500 7100 0    50   Input ~ 0
+RX_PIC
+$EndSCHEMATC
